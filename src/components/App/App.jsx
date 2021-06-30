@@ -2,6 +2,7 @@ import React from "react";
 import "./App.css";
 import Nav from "../Nav/Nav";
 import Landing from "../Landing/Landing";
+import Footer from "../Footer/Footer";
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
       {/* Challenge Section */}
 
       {/* Footer */}
+      <Footer />
     </div>
   );
 }

@@ -13,7 +13,7 @@ function Nav() {
         <a
           target="_blank"
           className="nav-link"
-          href="https://github.com/aj-1904/flash-type"
+          href="https://github.com/aj-1904/flashtyping"
           rel="noreferrer"
         >
           Link to GitHub
