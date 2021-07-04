@@ -11,6 +11,7 @@ function TypingChallengeContainer({
   timeRemaining,
   timerStarted,
   testInfo,
+  onInputChange
 }) {
   return (
     <div className="typing-challenge-container">
@@ -32,6 +33,7 @@ function TypingChallengeContainer({
           timeRemaining={timeRemaining}
           timerStarted={timerStarted}
           testInfo={testInfo}
+          onInputChange={onInputChange}
         />
       </div>
     </div>
