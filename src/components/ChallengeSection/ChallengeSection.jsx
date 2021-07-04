@@ -10,7 +10,8 @@ function ChallengeSection({
   timeRemaining,
   timerStarted,
   testInfo,
-  onInputChange
+  onInputChange,
+  startAgain
 }) {
   return (
     <div className="challenge-section-container">
@@ -26,6 +27,7 @@ function ChallengeSection({
         wpm={wpm}
         testInfo={testInfo}
         onInputChange={onInputChange}
+        startAgain={startAgain}
       />
     </div>
   );

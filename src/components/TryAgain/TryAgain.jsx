@@ -1,7 +1,7 @@
 import React from "react";
 import "./TryAgain.css";
 
-function TryAgain({ words, characters, wpm }) {
+function TryAgain({ words, characters, wpm, startAgain}) {
   return (
     <div className="try-again-container">
       <h1>Test Results</h1>
@@ -18,7 +18,7 @@ function TryAgain({ words, characters, wpm }) {
         </p>
       </div>
       <div>
-        <button className="reset-btn">Re-try</button>
+        <button onClick={() => startAgain()} className="reset-btn">Re-try</button>
       </div>
     </div>
   );
