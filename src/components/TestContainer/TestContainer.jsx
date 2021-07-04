@@ -10,6 +10,7 @@ function TestContainer({
   wpm,
   timeRemaining,
   timerStarted,
+  testInfo
 }) {
   return (
     <div className="test-container">
@@ -22,6 +23,7 @@ function TestContainer({
             characters={characters}
             wpm={wpm}
             timerStarted={timerStarted}
+            testInfo={testInfo}
           />
         </div>
       ) : (
