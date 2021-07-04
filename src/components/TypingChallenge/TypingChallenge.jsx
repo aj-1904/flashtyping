@@ -1,5 +1,6 @@
 import React from "react";
 import "./TypingChallenge.css";
+import TestLetter from "../TestLetter/TestLetter";
 
 function TypingChallenge({
   selectedParagraph,
@@ -19,7 +20,14 @@ function TypingChallenge({
       </div>
       <div className="textarea-container">
         <div className="textarea-left">
-          <div className="textarea test-paragraph">{selectedParagraph}</div>
+          <div className="textarea test-paragraph">
+              {/* {selectedParagraph} */}
+              {
+                  testInfo.map((individualLetterInfo) => {
+                      return <TestLetter individualLetterInfo={individualLetterInfo}/>
+                  })
+              }
+              </div>
         </div>
         <div className="textarea-right">
           <textarea
