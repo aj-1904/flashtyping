@@ -5,11 +5,11 @@ function Footer() {
   return (
     <div className="footer-container">
       <a
-        href="https://github.com/aj-1904/flashtyping"
+        href="https://github.com/aj-1904"
         className="footer-link"
         target="_blank"
         rel="noreferrer"
-      >Github Repository</a>
+      >My Github Profile</a>
     </div>
   );
 }
